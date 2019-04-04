@@ -1,0 +1,75 @@
+Script started on 2018-04-09 19:33:04-0500
+]0;chetan@chetan-VirtualBox: ~/cloud/pa2[01;32mchetan@chetan-VirtualBox[00m:[01;34m~/cloud/pa2[00m$ ls
+log1.log
+]0;chetan@chetan-VirtualBox: ~/cloud/pa2[01;32mchetan@chetan-VirtualBox[00m:[01;34m~/cloud/pa2[00m$ ssh cgupy[Kta5@216.47.142.38
+cgupta5@216.47.142.38's password: 
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-119-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+2 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Tue Apr 10 00:00:28 2018 from 104.194.118.42
+]0;cgupta5@neutron: ~[01;32mcgupta5@neutron[00m:[01;34m~[00m$ srun -n 1 --pty /bin/bash
+]0;cgupta5@compute-9: ~[01;32mcgupta5@compute-9[00m:[01;34m~[00m$ ls
+[0m[01;34msort[0m
+]0;cgupta5@compute-9: ~[01;32mcgupta5@compute-9[00m:[01;34m~[00m$ ls /tm/[Kp/
+]0;cgupta5@compute-9: ~[01;32mcgupta5@compute-9[00m:[01;34m~[00m$ srun: Force Terminated job 953
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+exit
+]0;cgupta5@neutron: ~[01;32mcgupta5@neutron[00m:[01;34m~[00m$ packet_write_wait: Connection to 216.47.142.38 port 22: Broken pipe
+]0;chetan@chetan-VirtualBox: ~/cloud/pa2[01;32mchetan@chetan-VirtualBox[00m:[01;34m~/cloud/pa2[00m$ ssh cgupta5@216.47.142.38
+cgupta5@216.47.142.38's password: 
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-119-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+4 packages can be updated.
+2 updates are security updates.
+
+
+Last login: Tue Apr 10 00:33:28 2018 from 104.194.118.42
+]0;cgupta5@neutron: ~[01;32mcgupta5@neutron[00m:[01;34m~[00m$ srun -n 1 --pty /bin/bash
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ git clone ssh://
+fatal: No directory name could be guessed.
+Please specify a directory on the command line
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ userid
+No command 'userid' found, did you mean:
+ Command 'uservd' from package 'userv' (universe)
+userid: command not found
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ @216.47.142.38/exports/git/
+bash: @216.47.142.38/exports/git/: No such file or directory
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ userid
+No command 'userid' found, did you mean:
+ Command 'uservd' from package 'userv' (universe)
+userid: command not found
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ /cs553
+bash: /cs553: No such file or directory
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ -
+-: command not found
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ pa2a.git[K[K[K[K[K[K[K[Kgit clone ssh://cgupta5@216.47.142.38/exports/git/cgupta5/cs553-pa2a.git
+Cloning into 'cs553-pa2a'...
+The authenticity of host '216.47.142.38 (216.47.142.38)' can't be established.
+ECDSA key fingerprint is SHA256:LrvFetETmdVDsD4WlgilT9UmO7I0EyU2yPf1+OSTbYk.
+Are you sure you want to continue connecting (yes/no)? Yes
+Warning: Permanently added '216.47.142.38' (ECDSA) to the list of known hosts.
+cgupta5@216.47.142.38's password: 
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ ls
+[0m[01;34mcs553-pa2a[0m  [01;34msort[0m
+]0;cgupta5@compute-2: ~[01;32mcgupta5@compute-2[00m:[01;34m~[00m$ cd cs553-pa2a/
+]0;cgupta5@compute-2: ~/cs553-pa2a[01;32mcgupta5@compute-2[00m:[01;34m~/cs553-pa2a[00m$ ls
+]0;cgupta5@compute-2: ~/cs553-pa2a[01;32mcgu

@@ -1,0 +1,7 @@
+18.62GB
+459 seconds
+=== VALSORT OUTPUT ===
+Records: 200000000
+Checksum: 2715a7637eee
+Duplicate keys: 0
+SUCCESS - all records are in order
